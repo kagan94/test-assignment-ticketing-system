@@ -25,3 +25,14 @@ replay_pid*
 
 # IntelliJ IDEA
 .idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# project files
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
