@@ -1,5 +1,8 @@
 # test-assignment-ticketing-system
-Home assignment for Sporty Group
+Home assignment for Sporty Group.
+
+## Task requirements
+Task requirements are described in the [task requirements.pdf](documentation/task requirements.pdf) file.
 
 ## Setup and run instructions
 todo: add section information
