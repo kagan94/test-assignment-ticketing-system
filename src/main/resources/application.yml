@@ -16,3 +16,6 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.xml
+
+redis:
+  url: redis://localhost:6379
