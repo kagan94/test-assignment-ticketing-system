@@ -1,7 +1,6 @@
 package com.sportygroup.ticketingsystem.controller;
 
 import com.sportygroup.ticketingsystem.dto.UpdateTicketStatusRequestDto;
-import com.sportygroup.ticketingsystem.testsetup.BaseIT;
 import com.sportygroup.ticketingsystem.testsetup.api.TicketApi;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,7 @@ import static com.sportygroup.ticketingsystem.entity.Ticket.TicketStatus.IN_PROG
 import static com.sportygroup.ticketingsystem.entity.Ticket.TicketStatus.OPEN;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class UpdateTicketStatusIT extends BaseIT {
+class UpdateTicketStatusIT extends BaseTicketIT {
 
 	@Autowired
 	TicketApi ticketApi;

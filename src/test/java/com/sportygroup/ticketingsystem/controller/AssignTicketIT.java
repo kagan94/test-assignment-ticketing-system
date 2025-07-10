@@ -1,14 +1,13 @@
 package com.sportygroup.ticketingsystem.controller;
 
 import com.sportygroup.ticketingsystem.dto.AssignTicketRequestDto;
-import com.sportygroup.ticketingsystem.testsetup.BaseIT;
 import com.sportygroup.ticketingsystem.testsetup.api.TicketApi;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class AssignTicketIT extends BaseIT {
+class AssignTicketIT extends BaseTicketIT {
 
 	private static final String ASSIGNEE_ID = "assignee-123";
 
