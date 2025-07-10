@@ -5,6 +5,7 @@ import com.sportygroup.ticketingsystem.entity.Ticket;
 import com.sportygroup.ticketingsystem.repository.TicketRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.UUID;
 
@@ -16,6 +17,7 @@ public class CreateTicketUseCase {
 
 	private final TicketRepository ticketRepository;
 
+	@Transactional
 	public UUID execute(CreateTicketRequestDto request) {
 		final var ticket = new Ticket();
 		ticket.setId(UUID.randomUUID());

@@ -1,4 +1,4 @@
-package com.sportygroup.ticketingsystem;
+package com.sportygroup.ticketingsystem.testsetup;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
